@@ -1,7 +1,7 @@
 [project]
-name = "wab.hello-world"
-version = "1.0.0"
-description = "Simple hello world service"
+name = ""
+version = ""
+description = ""
 authors = [
     {name = "xbusek1", email = "xbusek1@mendelu.cz"},
 ]
@@ -15,5 +15,5 @@ license = {text = "MIT"}
 
 
 [tool.pdm.scripts]
-dev = "uvicorn main:app --reload"
+dev = "uvicorn src.main:app --reload"
 test = "pytest"
